@@ -6,7 +6,7 @@ import React from 'react'
 
 const useStyles = makeStyles((theme) => ({
   card: {
-    marginBottom: theme.spacing(5),
+    
   },
   media: {
     height: 250,
