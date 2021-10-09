@@ -4,12 +4,12 @@ import { AppBar, Badge, InputBase, Toolbar, Typography } from '@mui/material';
 import { Search } from '@mui/icons-material';
 import MailIcon from '@mui/icons-material/Mail';
 import theme from '../theme';
-// const useStyles =makeStyles((theme)=>({
-//   toolbar:{
-//     display:'flex',
-//   }
-// }))
+
 const useStyles = makeStyles({
+  appbar:{
+    position: 'fixed',
+    top: 0,
+  },
   toolbar: {
    display:'flex',
    justifyContent:'space-between',
@@ -34,6 +34,7 @@ const useStyles = makeStyles({
       display:'none',
     },
   },
+ 
 
 });
 
@@ -41,7 +42,7 @@ const useStyles = makeStyles({
 function Navbar() {
   const classes = useStyles();
   return (
-    <AppBar>
+    <AppBar  className={classes.appbar} >
       <Toolbar className={classes.toolbar} >
       <Typography variant="h6" className={classes.logLg} >
        Rashed
