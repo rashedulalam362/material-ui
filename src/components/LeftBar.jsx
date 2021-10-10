@@ -10,8 +10,8 @@ const useStyles = makeStyles({
     top: '0',    
     height:'100vh',
     color:'white',  
-      
-    paddingTop:theme.spacing(4),
+    paddingTop: theme.spacing(5)  ,
+    
     [theme.breakpoints.up('md')]: {
      backgroundColor: theme.palette.secondary.main,
       }

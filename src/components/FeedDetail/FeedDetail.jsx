@@ -12,6 +12,7 @@ const useStyles = makeStyles({
     
         card:{
           marginBottom: theme.spacing(5),
+          paddingTop: theme.spacing(1)
         },
         media:{
           height: 250,

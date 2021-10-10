@@ -10,9 +10,13 @@ import ToolTips from './components/ToolTips';
 
 const useStyles =makeStyles((theme)=>({
   container:{
-    marginTop:20,
+  paddingBottom:20,
+  marginTop:50 
+
    
-  }
+  },
+  
+  
 
 
 }))
@@ -29,7 +33,7 @@ function App() {
        <Feed></Feed>
      </Grid>
      <Grid item sm={3} lx={12}>  
-      <RightBar/>
+      <RightBar />
      </Grid>
      </Grid>
      <ToolTips/>
